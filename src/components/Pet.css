@@ -1,0 +1,76 @@
+.pet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f5ff;
+  border: 5px solid #ffc107;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 300px;
+}
+
+.pet h2 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 24px;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+.pet p {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 18px;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+}
+
+.pet img {
+  width: 200px;  /* Increased width */
+  height: 200px; /* Increased height */
+  border-radius: 50%;
+  background-color: #ffffff;
+  padding: 15px;  /* Increased padding */
+  border: 3px solid #ffc107;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.App {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  background-color: #ffecd1;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 16px;
+  background-color: #ff6f61;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #ff8a70;
+}
+
+button:active {
+  background-color: #e65b4c;
+  transform: scale(0.98);
+}
